@@ -2,3 +2,9 @@
     background-image: url("../assets/images/sf_background.png");
     background-size: cover;
 }
+
+#restart {
+    font-size: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
