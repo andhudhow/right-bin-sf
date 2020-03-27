@@ -5,7 +5,7 @@
 html {
     /* background-size: 200px 180px; */
     /* background-image: url('../assets/images/recycle_background.png'); */
-    background: black;
+    background: rgb(34, 33, 33);
     position: relative;
     height: 100vh;
     display: flex;
@@ -23,7 +23,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 1px black solid;
+    border-bottom: 3px white solid;
     margin-bottom: 1%;
     width: 100%;
 }
