@@ -5,7 +5,7 @@ module.exports = {
   entry: "./lib/rightbin.js",
   output: {
     path: path.resolve(__dirname),
-    filename: "./lib/bundle.js"
+    filename: "./bundle.js"
   },
   module: {
     rules: [
