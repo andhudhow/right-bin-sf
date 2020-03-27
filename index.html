@@ -3,14 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>RightBinSF</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./stylesheets/game.css">
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <div>
-        <canvas id='canvas' height='500' width='750'></canvas>
-    </div>
+    <container id="main">
+      <header id="title-header">
+        <div id="title">RightBin - San Francisco</div>
+        <div id="subtitle">🌎 Pick the right bin. Save the planet! 🌍</div>
+      </header>
+      <container id="game">
+          <canvas id='canvas' height='500' width='750'></canvas>
+      </container>
+    </container>
   </body>
 </html>

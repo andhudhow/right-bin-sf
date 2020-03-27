@@ -1,11 +1,61 @@
+* {
+    
+}
+
+html {
+    /* background-size: 200px 180px; */
+    /* background-image: url('../assets/images/recycle_background.png'); */
+    background: black;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px black solid;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+#title {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+#subtitle {
+    font-family: Arial;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url('../assets/images/recycle_background.png');
+    background-size: 200px 180px;
+}
 #canvas {
     background-image: url("../assets/images/sf_background.png");
     background-size: cover;
+    height: 500px;
+    width: 750px;
     cursor: pointer;
-}
-
-#restart {
-    font-size: 100px;
-    margin-top: 200px;
-    margin-left: 30px;
+    border: 10px white solid;
 }
