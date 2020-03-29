@@ -4,6 +4,7 @@
   "description": "Pick the right bin. Save the planet.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --watch -m=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
